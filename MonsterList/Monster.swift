@@ -59,7 +59,7 @@ class Monster {
     var type: MonsterType?
     var isFavorite: Bool
     
-    init(name: String?, age: Int?, description: String?, type: MonsterType) {
+    init(name: String?, age: Int?, description: String? = nil, type: MonsterType) {
         self.name = name
         self.description = description
         self.age = age
