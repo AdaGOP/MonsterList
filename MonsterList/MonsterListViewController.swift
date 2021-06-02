@@ -7,9 +7,7 @@
 
 import UIKit
 
-class MonsterListViewController: UIViewController, UITableViewDataSource {
-    
-    @IBOutlet weak var monsterListTableView: UITableView!
+class MonsterListViewController: UIViewController {
     
     let monsters = [
         Monster(name: "Gloop", age: 1, type: .water),
@@ -19,27 +17,7 @@ class MonsterListViewController: UIViewController, UITableViewDataSource {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        monsterListTableView.dataSource = self
 
-    }
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return monsters.count
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "monsterListIdentifier") as! MonsterListTableViewCell
-        
-        cell.mView.layer.cornerRadius = 8
-        cell.mView.backgroundColor = monsters[indexPath.row].type?.getColor()
-        cell.monsterImageView.image = monsters[indexPath.row].type?.getImage()
-        cell.nameLabel.text = monsters[indexPath.row].name
-        cell.typeLabel.text = monsters[indexPath.row].type?.rawValue
-        
-        cell.selectionStyle = .none
-        
-        return cell
     }
     
 }

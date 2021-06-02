@@ -14,7 +14,6 @@
 		5535987226676FB20057866C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5535987026676FB20057866C /* LaunchScreen.storyboard */; };
 		5535987A26676FC80057866C /* MonsterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535987926676FC80057866C /* MonsterListViewController.swift */; };
 		5535987C266770AE0057866C /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535987B266770AE0057866C /* Monster.swift */; };
-		5535987E266783490057866C /* MonsterListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535987D266783490057866C /* MonsterListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		5535987326676FB20057866C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5535987926676FC80057866C /* MonsterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListViewController.swift; sourceTree = "<group>"; };
 		5535987B266770AE0057866C /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
-		5535987D266783490057866C /* MonsterListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +62,6 @@
 				5535986726676FB10057866C /* SceneDelegate.swift */,
 				5535987B266770AE0057866C /* Monster.swift */,
 				5535987926676FC80057866C /* MonsterListViewController.swift */,
-				5535987D266783490057866C /* MonsterListTableViewCell.swift */,
 				5535986B26676FB10057866C /* Main.storyboard */,
 				5535986E26676FB20057866C /* Assets.xcassets */,
 				5535987026676FB20057866C /* LaunchScreen.storyboard */,
@@ -145,7 +142,6 @@
 			files = (
 				5535987C266770AE0057866C /* Monster.swift in Sources */,
 				5535986626676FB10057866C /* AppDelegate.swift in Sources */,
-				5535987E266783490057866C /* MonsterListTableViewCell.swift in Sources */,
 				5535987A26676FC80057866C /* MonsterListViewController.swift in Sources */,
 				5535986826676FB10057866C /* SceneDelegate.swift in Sources */,
 			);
