@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MonsterListViewController.swift
 //  MonsterList
 //
 //  Created by Handy Handy on 02/06/21.
@@ -7,13 +7,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MonsterListViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
-
-
+    
 }
-
